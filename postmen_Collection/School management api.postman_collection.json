@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "97d729df-3859-4eba-9581-d8c4348fef89",
+		"name": "School management api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "39943034",
+		"_collection_link": "https://ecp888.postman.co/workspace/ecomerce~75b938a9-2251-4e2a-b9dc-ec139de46844/collection/39943034-97d729df-3859-4eba-9581-d8c4348fef89?action=share&source=collection_link&creator=39943034"
+	},
+	"item": [
+		{
+			"name": "AddSchool",
+			"item": [
+				{
+					"name": "addSchool",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"marwadi university\",\r\n  \"address\": \"Rakot\",\r\n  \"latitude\": 28.5457,\r\n  \"longitude\":77.1928\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/addSchool"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "listSchool",
+			"item": [
+				{
+					"name": "list school",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -25,7 +25,8 @@ school-management
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+ git clone https://github.com/dheerajsingh9334/school-management-api.git
+
    cd school-management
    ```
 
@@ -71,7 +72,53 @@ school-management
   - `latitude`: User's latitude
   - `longitude`: User's longitude
 - **Description:** Fetches all schools from the database, calculates their distance from the user's location, and returns a sorted list.
+- 
+```json
+[
+    {
+        "id": 3,
+        "name": "Marwadi University ",
+        "address": "Rakot",
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "distance": 1383.6978415388362
+    },
+    {
+        "id": 1,
+        "name": "ABC School",
+        "address": "123 Main Street",
+        "latitude": 28.7041,
+        "longitude": 77.1025,
+        "distance": 13086.844978377469
+    },
+    {
+        "id": 2,
+        "name": "Marwadi University ",
+        "address": "Rajkot",
+        "latitude": 28.7041,
+        "longitude": 77.1025,
+        "distance": 13086.844978377469
+    },
+    {
+        "id": 5,
+        "name": "IIT delhi",
+        "address": "delhi",
+        "latitude": 28.5457,
+        "longitude": 77.1928,
+        "distance": 13106.536617137275
+    },
+    {
+        "id": 4,
+        "name": "marwadi university",
+        "address": "Rakot",
+        "latitude": 22.3677,
+        "longitude": 70.7922,
+        "distance": 13394.597969504974
+    }
+```
+App runs at http://localhost:5000
 
+] 
 ## Testing
 You can use Postman to test the API endpoints. A Postman collection will be provided for easy testing.
 

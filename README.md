@@ -24,10 +24,11 @@ school-management
 ## Setup Instructions
 
 1. **Clone the repository**
-   ```bash  git clone https://github.com/dheerajsingh9334/school-management-api.git
+   ```bash
 
+      git clone https://github.com/dheerajsingh9334/school-management-api.git
 
-   cd school-management
+      cd school-management 
    ```
 
 2. **Install dependencies**
